@@ -17,18 +17,19 @@ export default function Home() {
       <MaxWidthWrapper className="mt-10 flex flex-col items-center justify-center text-center sm:mt-12">
         <div className="mx-auto mb-4 flex max-w-fit items-center justify-center space-x-2 overflow-hidden rounded-full border border-gray-200 bg-white px-7 py-2 shadow-md backdrop-blur transition-all hover:border-gray-300 hover:bg-white/50">
           <p className="text-sm font-semibold text-gray-700">
-            Try Convo for Free
+            Join us for Free
           </p>
         </div>
 
         <h1 className="max-w-4xl text-5xl font-bold md:text-6xl lg:text-7xl">
-          <span className="text-blue-600">Speech</span> Focused Language
-          Learning
+          <span className="text-blue-600">Foundation</span> Focused Design &
+          Development
         </h1>
 
         <p className="mt-5 max-w-prose text-lg text-zinc-700 sm:text-2xl">
-          Convo helps you improve your spoken fluency with the help of an AI
-          tutor.
+          Foundasi is a foundation for your next project. It is a collection of
+          components, styles, and utilities that are designed to work together
+          to create a consistent and beautiful user experience.
         </p>
 
         <Link
@@ -41,7 +42,7 @@ export default function Home() {
           )}
           href={"/dashboard"}
         >
-          Start Speaking Now
+          Join us Now
         </Link>
       </MaxWidthWrapper>
 
@@ -105,7 +106,7 @@ export default function Home() {
                 </h2>
                 <p className="mt-4 text-lg text-gray-600">
                   Improving your spoken fluency has never been easier than with
-                  Convo.
+                  Foundasi.
                 </p>
               </div>
             </div>
@@ -233,7 +234,7 @@ export default function Home() {
                   Powered by
                 </h2>
                 <p className="mt-4 text-lg text-gray-600">
-                  These are the technologies behind the scene that make Convo
+                  These are the technologies behind the scene that make Foundasi
                   possible
                 </p>
               </div>
@@ -296,7 +297,7 @@ export default function Home() {
                   Feedback
                 </h2>
                 <p className="mt-4 text-lg text-gray-600">
-                  What are people saying about Convo
+                  What are people saying about Foundasi
                 </p>
               </div>
             </div>

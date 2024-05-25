@@ -14,33 +14,33 @@ const Navbar = () => {
   return (
     <nav
       className={cn(
-        "sticky h-14 inset-x-0 top-0 z-30 border-b border-gray-200  bg-white/40 backdrop-blur-lg transition-all"
+        "sticky inset-x-0 top-0 z-30 h-14 border-b border-gray-200  bg-white/40 backdrop-blur-lg transition-all",
       )}
     >
       <MaxWidthWrapper>
         <div className="flex h-14 items-center justify-between border-b border-zinc-200">
           <Link
             href="/"
-            className="flex z-40 justify-center items-center gap-1"
+            className="z-40 flex items-center justify-center gap-1"
           >
             <Image
               src="/logo.png"
-              alt="convo logo"
+              alt="Foundasi logo"
               width={50}
               height={50}
               quality={100}
-              className="w-7 h-7"
+              className="h-7 w-7"
             />
-            <span className="text-2xl font-semibold">Convo</span>
+            <span className="text-2xl font-semibold">Foundasi</span>
           </Link>
-          <div className="flex gap-1 sm:gap-4 items-center">
+          <div className="flex items-center gap-1 sm:gap-4">
             {!isUserSignedIn ? (
               <MobileNav />
             ) : (
               <Link
                 className={buttonVariants({
                   size: "sm",
-                  className: "sm:hidden mr-3",
+                  className: "mr-3 sm:hidden",
                 })}
                 href="/dashboard"
               >
@@ -94,7 +94,7 @@ const Navbar = () => {
 
             {/* User profile mockup below, e.g using Clerk: <UserButton afterSignOutUrl="/" /> */}
             {isUserSignedIn && (
-              <div className="bg-emerald-600 border-2 border-black shadow-lg rounded-full w-10 h-10"></div>
+              <div className="h-10 w-10 rounded-full border-2 border-black bg-emerald-600 shadow-lg"></div>
             )}
           </div>
         </div>

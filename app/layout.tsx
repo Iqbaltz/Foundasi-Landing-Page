@@ -5,8 +5,8 @@ import { cn } from "@/lib/utils";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Convo | Language Learning",
-  description: "Speech focused language learning",
+  title: "Foundasi",
+  description: "Foundasi is a foundation for your next project.",
 };
 
 export default function RootLayout({
